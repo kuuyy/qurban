@@ -1,5 +1,3 @@
-import Image from "next/image"
-
 const navigation = [
   { name: 'Solutions', href: '#' },
   { name: 'Pricing', href: '#' },
@@ -15,7 +13,7 @@ export default function Header() {
           <div className="flex items-center">
             <a href="#">
               <span className="sr-only">Your Company</span>
-              <Image className="h-10 w-auto" src="https://tailwindui.com/img/logos/mark.svg?color=white" alt="" />
+              <img className="h-10 w-auto" src="https://tailwindui.com/img/logos/mark.svg?color=white" alt="" />
             </a>
             <div className="ml-10 hidden space-x-8 lg:block">
               {navigation.map((link) => (
